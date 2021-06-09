@@ -4,4 +4,3 @@ staticfiles
 **/staticfiles/
 **/migrations/**
 **/migrations/
-deploy.sh
