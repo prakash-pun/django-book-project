@@ -10,8 +10,8 @@ pipeline {
         stage('Deploy'){
             steps{
                 echo "Test run"
-                sh "chmod 755 run.sh"
-                sh 'bash ./run.sh'
+                sh "chmod 755 deploy.sh"
+                sh 'bash ./deploy.sh'
             }
         }
     }
