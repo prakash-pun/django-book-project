@@ -11,7 +11,7 @@ pipeline {
             steps{
                 echo "Test run"
                 sh "chmod 755 run.sh"
-                sh '"bash -s" < run.sh'
+                sh 'bash ./run.sh'
             }
         }
     }
