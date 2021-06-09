@@ -1,0 +1,7 @@
+migrations
+staticfiles
+**/staticfiles/**
+**/staticfiles/
+**/migrations/**
+**/migrations/
+deploy.sh
