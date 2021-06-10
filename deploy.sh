@@ -1,7 +1,7 @@
 #!/bin/bash
 
-git clone https://github.com/prakash-pun7/django-book-project.git .
-
+git clone https://github.com/prakash-pun7/django-book-project.git
+cd django-book-project/
 pipenv shell
 pip install -r requirements.txt
 
