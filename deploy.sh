@@ -8,6 +8,4 @@ git pull origin master
 
 docker-compose up -d --build
 
-docker-compose exec web python manage.py collectstatic
-
 exit
