@@ -26,7 +26,7 @@ SECRET_KEY = os.environ.get('SECRET_KEY')
 DEBUG = True
 
 ALLOWED_HOSTS = ['fathomless-castle-12785.herokuapp.com',
-                'localhost', '127.0.0.1']
+                'localhost', '127.0.0.1' ,'intern.sarojtripathi.com.np']
 
 
 # Application definition
