@@ -11,7 +11,7 @@ pipeline {
             steps{
                 echo "Test run"
                 sh "chmod 755 deploy.sh"
-                sh 'bash ./deploy.sh'
+                sh 'ssh root@localhost "bash -s" < deploy.sh'
             }
         }
     }

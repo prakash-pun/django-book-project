@@ -4,3 +4,4 @@ staticfiles
 **/staticfiles/
 **/migrations/**
 **/migrations/
+__pycache__
