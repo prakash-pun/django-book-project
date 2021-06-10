@@ -1,7 +1,10 @@
 #!/bin/bash
 
-git pull
+git clone https://github.com/prakash-pun7/django-book-project.git .
+
+pipenv shell
 pip install -r requirements.txt
+
 python manage.py makemigrations users books orders pages
 python manage.py makemigrations
 python manage.py migrate
